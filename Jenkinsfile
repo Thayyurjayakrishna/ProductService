@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                sh 'mvn clean package'
+                echo 'Maven clean install and build it'
             }
         }
     }
