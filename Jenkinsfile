@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Maven clean install and build it'
+                echo 'Maven clean install and deploy on to tomcat server'
             }
         }
     }
